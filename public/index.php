@@ -12,9 +12,47 @@
 
 <body>
 
+<div class="container">
+  <div class="row">
+    <div class="col">Météo</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+  <div class="col">La rédac : us@world.com<br>Fax : xx.xx.xx.xx.xx<br>Tel : xx.xx.xx.xx.xx.<br><br>Service-abonné : xx.xx.xx.xx.xx.<br><br><span class="badge badge-primary">S'abonner</span></div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php">International</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php">France</a>
+            </li>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php">Grand-Est</a>
+            </li>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php">Economie</a>
+            </li>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php">Culture</a>
+            </li>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php">Le dossier de l'Edito</a>
+            </li>
+        </ul>
+    </nav>
 
 
-    <form action=""></form>
 
 <!-- Optional JS - Jquery - Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

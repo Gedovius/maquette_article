@@ -12,62 +12,31 @@
 
 <body>
 
-
-<nav class="navbar navbar-expand-lg">
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">International</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">France</a>
-            </li>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">Grand-Est</a>
-            </li>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">Economie</a>
-            </li>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">Culture</a>
-            </li>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">Le dossier de l'Edito</a>
-            </li>
-        </ul>
-    </nav>
-<br>
-
 <form>
-    <div class="form-row">
-        <div class="form-group col-md-6">
-        <label for="inputEmail4"></label>
-        <input type="text" class="form-control" id="user_name">
-        </div>
-        <br><div class="form-group col-md-6">
-        <label for="inputPassword4"></label>
-        <input type="password" class="form-control" id="user_password">
-        </div>
-        <div class="form-group col-md-6">
-        <label for="inputPassword4"></label>
-        <input type="password" class="form-control" id="user_password">
-        </div>
-    </div>
+ <h3>Formulaire d'abonnement</h3>
 
     <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
   <div class="input-group mb-2 mr-sm-2">
     <div class="input-group-prepend">
       <div class="input-group-text">@</div>
     </div>
-    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="john@gmail.com">
+  </div>
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">*</div>
+    </div>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="********">
+  </div>
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">*</div>
+    </div>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="********">
   </div>
 
-
-    <br>
 <div class="form-check">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>PAYPAL</input><br>
@@ -76,7 +45,7 @@
 
   </label>
 </div>
-<br>
+
     <div class="form-group">
         <div class="form-check">
         <input class="form-check-input" type="checkbox" id="gridCheck">
